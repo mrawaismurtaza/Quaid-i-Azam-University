@@ -1,0 +1,147 @@
+.Navbar{
+    display: grid;
+    grid-template-columns: 30% auto;
+    height: 6rem;
+    background-color: rgb(9, 4, 77) !important;
+    align-items: center;
+}
+
+
+
+
+.Logo-Sec{
+  margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Link-Sec{
+  margin-right: 5%;
+}
+
+.Link-Sec>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 8rem;
+    color: white;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+
+.dropDown {
+    display: none;
+}
+
+.home:hover{
+    .dropDown{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DropDown  */
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: rgb(9, 4, 77);
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    border: 1px solid white;
+    background-color: rgb(9, 4, 77);
+} 
+
+
+
+
+@media (max-width: 768px) {
+
+  .nav-item{
+    width: 100%;
+  }
+
+    .Navbar{
+      height: 100%;
+    }
+    .dropbtn{
+      width: 100%;
+    }
+    .dropdown{
+      width: 100%;
+      height: 100%;
+    }
+
+    .dropdown-content{
+      width: 100%;
+    }
+
+    .dropdown-item{
+      width: 100%;
+    }
+
+    .Link-Sec{
+      margin: 0%;
+    }
+
+
+    .Link-Sec>ul{
+      display: flex;
+      flex-direction: column;
+      gap: 0%;
+    }
+}
