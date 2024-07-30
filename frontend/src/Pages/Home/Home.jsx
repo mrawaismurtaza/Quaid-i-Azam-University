@@ -7,6 +7,9 @@ import { CiLocationArrow1 } from "react-icons/ci";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import ContactDetails from "../../Components/ContactDetails/ContactDetails.jsx";
 import Message from "../../Components/MessageSec/Message.jsx";
+import Article from "../../Components/Articles/Article.jsx";
+import Event from "../../Components/Events/Event.jsx";
+import Why from "../../Components/WhyQAU/Why.jsx";
 
 function Home() {
   const [show, setShow] = useState(0);
@@ -40,8 +43,13 @@ function Home() {
         </div>
       </div>
 
+      <Message />
 
-      <Message/>
+      <Article/>
+
+      <Event/>
+
+      <Why/>
     </div>
   );
 }

@@ -1,9 +1,13 @@
-.Message{
+.Message {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
     justify-content: center;
+    position: relative;
+    background: rgb(248, 239, 239);
 }
+
+
 
 .Chancellor{
     padding: 15%;
@@ -14,7 +18,7 @@
     margin-bottom: 0px;
 }
 
-.title{
+.Title{
     font-size: 1.5rem; 
     font-weight: bold;
     color: #333;      
@@ -66,6 +70,13 @@
     flex-direction: row;
     align-items: center;
     gap: 5%;
+    cursor: pointer;
+}
+
+.Links>div>ul>li:hover{
+    border-bottom: solid yellow 2px;
+    width: 60%;
+    color: yellow;
 }
 
 

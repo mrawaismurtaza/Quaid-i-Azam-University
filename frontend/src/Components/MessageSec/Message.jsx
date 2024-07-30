@@ -15,7 +15,7 @@ function Message() {
   return (
     <div className="Message">
         <div className="Chancellor">
-            <p className='title'>Message From Vice Chancellor</p>
+            <p className='Title'>Message From Vice Chancellor</p>
             <div>
                 <img src={Portfolio} alt="" />
                 <p className='message'>I am delighted to welcome you all to the official website of Quaid-i-Azam University. Islamabad, the top ranked Institution of the country. As the Vice Chancellor of this esteemed institution, I am proud to serve alongside a team of dedicated academics and professionals committed to advancing knowledge and fostering a culture of excellence.</p>

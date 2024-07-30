@@ -1,0 +1,44 @@
+.Event{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    gap: 2rem;
+}
+
+.event-excerpt {
+    padding: 4%;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.event-thumb{
+    width: 100%;
+}
+
+.event-thumb>img{
+    width: 100%;
+}
+
+.event-box{
+    box-shadow: 0px 0px 1px 0.5px;
+    width: 100%;
+}
+
+.event-excerpt>p>a{
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    .Event{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        gap: 2rem;
+    }
+
+    .event-thumb>img{
+        width: 100%;
+    }
+}
