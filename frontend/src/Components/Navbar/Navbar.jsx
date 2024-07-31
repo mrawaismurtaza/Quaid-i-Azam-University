@@ -15,15 +15,15 @@ function Navbar() {
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
             <div className="dropdown dropDown">
-              <button className="dropbtn nav-link">Pages ↓</button>
+              <button className="dropbtn nav-link">More ↓</button>
               <div className="dropdown-content">
                 <a className="dropdown-item" href="/">Home</a>
-                <a className="dropdown-item" href="/about">About</a>
-                <a className="dropdown-item" href="/contact">Contact</a>
+                <a className="dropdown-item" href="https://qau.edu.pk/about-the-registrar-office/">About</a>
+                <a className="dropdown-item" href="https://qau.edu.pk/contact-list/">Contact</a>
               </div>
             </div>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <div className="dropdown dropDown">
               <button className="dropbtn nav-link">Pages ↓</button>
               <div className="dropdown-content">
@@ -42,7 +42,7 @@ function Navbar() {
                 <a className="dropdown-item" href="/contact">Contact</a>
               </div>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

@@ -10,6 +10,7 @@ import Message from "../../Components/MessageSec/Message.jsx";
 import Article from "../../Components/Articles/Article.jsx";
 import Event from "../../Components/Events/Event.jsx";
 import Why from "../../Components/WhyQAU/Why.jsx";
+import Footer from "../../Components/Footer/Footer.jsx";
 
 function Home() {
   const [show, setShow] = useState(0);
@@ -50,6 +51,8 @@ function Home() {
       <Event/>
 
       <Why/>
+
+      <Footer/>
     </div>
   );
 }

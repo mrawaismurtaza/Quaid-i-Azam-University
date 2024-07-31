@@ -4,7 +4,9 @@ import "./Event.css";
 function Event() {
   return (
     <>
-      <h3>Events</h3>
+      <div className="heading">
+        <h3>Events</h3>
+      </div>
       <div className="Event">
         <div class="event-box">
           <div class="event-thumb">

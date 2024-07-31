@@ -30,10 +30,10 @@
 
 }
 
-ul{
+.item>address>ul{
     list-style: none;
     margin: 0%;
-    padding: 0%;
+    padding: 0% 3%;
 }
 
 
@@ -68,7 +68,7 @@ address>ul>li>span{
         padding: 2% 5%;
     }
 
-    ul{
+    .item>address>ul{
         padding-left: 0rem !important;
     }
 }
